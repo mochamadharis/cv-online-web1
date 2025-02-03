@@ -16,10 +16,10 @@
         .container {
             max-width: 800px;
             margin: 20px auto;
-            padding: 30px;
+            padding: 20px;
             background: #fff;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
         h1, h2, h3 {
             color: #2c3e50;
@@ -27,16 +27,28 @@
         h1 {
             margin-bottom: 10px;
             font-size: 2.5em;
-            color: #34495e;
         }
         h2 {
-            border-bottom: 2px solid #34495e;
+            border-bottom: 2px solid #2c3e50;
             padding-bottom: 5px;
-            margin-top: 25px;
+            margin-top: 20px;
             font-size: 1.8em;
         }
-        p {
-            margin: 10px 0;
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+            object-fit: cover;
+            border: 4px solid #2c3e50;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section p {
+            margin: 5px 0;
+            font-size: 1.1em;
         }
         .contact-info a {
             color: #3498db;
@@ -53,7 +65,7 @@
             background: #3498db;
             color: #fff;
             display: inline-block;
-            padding: 8px 15px;
+            padding: 5px 10px;
             margin: 5px;
             border-radius: 5px;
             font-size: 0.9em;
@@ -64,10 +76,9 @@
         }
         .hobbies ul li {
             display: inline-block;
-            background: #ecf0f1;
-            color: #333;
-            padding: 8px 15px;
             margin: 5px;
+            padding: 5px 10px;
+            background: #ecf0f1;
             border-radius: 5px;
             font-size: 0.9em;
         }
@@ -76,19 +87,22 @@
 <body>
     <div class="container">
         <header>
+            <img src="ris.jpg" alt="Foto Mochamad Haris Ramadan" class="profile-img">
             <h1>Mochamad Haris Ramadan</h1>
-            <p>Calon IT Programmer Ahli | Web Developer</p>
+            <p>Web Developer | Front-End Specialist</p>
         </header>
 
         <section class="section contact-info">
             <h2>Informasi Kontak</h2>
+            <p>Email: <a href="mailto:harisramadan@example.com">mochamadharis1933@gmail.com</a></p>
             <p>Telepon: <a href="tel:089677951876">0896-7795-1876</a></p>
-            <p>Email: <a href="mailto:harisramadan@example.com">harisramadan@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/harisramadan" target="_blank">linkedin.com/in/harisramadan</a></p>
+            <p>GitHub: <a href="https://github.com/harisramadan" target="_blank">github.com/harisramadan</a></p>
         </section>
 
         <section class="section">
             <h2>Tentang Saya</h2>
-            <p>Saya adalah seorang calon IT Programmer yang bersemangat dalam mempelajari dan mengembangkan keterampilan di bidang pemrograman, khususnya Web Development. Saya memiliki keahlian dalam Front-End Development dan sedang mengejar cita-cita untuk menjadi seorang IT Programmer ahli. Saya selalu tertarik untuk mempelajari teknologi baru dan menerapkannya dalam proyek-proyek yang bermanfaat.</p>
+            <p>Saya adalah seorang Web Developer dengan fokus pada pengembangan Front-End. Saya memiliki passion dalam menciptakan antarmuka pengguna yang menarik dan responsif. Saya selalu bersemangat untuk mempelajari teknologi baru dan meningkatkan keterampilan saya. Cita-cita saya adalah menjadi seorang IT Programmer yang ahli di bidangnya.</p>
         </section>
 
         <section class="section">
@@ -98,9 +112,10 @@
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
-                    <li>Front-End Development</li>
-                    <li>Responsive Design</li>
-                    <li>Git & Version Control</li>
+                    <li>React</li>
+                    <li>Bootstrap</li>
+                    <li>Git</li>
+                    <li>UI/UX Design</li>
                 </ul>
             </div>
         </section>
@@ -118,7 +133,7 @@
 
         <section class="section">
             <h2>Cita-Cita</h2>
-            <p>Saya bercita-cita untuk menjadi seorang IT Programmer ahli yang mampu memberikan solusi teknologi inovatif dan bermanfaat bagi masyarakat. Saya ingin terus berkembang dan berkontribusi dalam dunia teknologi informasi.</p>
+            <p>Saya bercita-cita menjadi seorang IT Programmer yang ahli, khususnya dalam bidang pengembangan web dan aplikasi. Saya ingin terus berkembang dan berkontribusi dalam dunia teknologi informasi.</p>
         </section>
     </div>
 </body>
